@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 import os
 import time
 
-
 load_dotenv()
 endpoint = os.getenv('ENDPOINT')
 key = os.getenv('KEY')
